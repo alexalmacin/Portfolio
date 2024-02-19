@@ -1,0 +1,74 @@
+/* Code for Header */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Quinquefive', Helvetica, sans-serif;
+    background-color: black;
+  }
+
+/* Code for Navbar */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    width: 740px;
+    margin: auto;
+    float: right;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #DAD7CD;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #588157;
+    color: white;
+  }
+  .blok {
+    height: 8px;
+    width: 1550px;
+    padding: 6px 16px;
+    background-color: #588157;
+    float: right;
+  }
+/* Code for columns */
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  height: 20px;
+  width: 1000px;
+  text-align: center;
+  background-color:#f80000;
+  color: #588157;
+}
+
+                                                
