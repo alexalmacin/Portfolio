@@ -63,12 +63,20 @@ body, html {
   display: table;
   clear: both;
 }
-.footer {
-  height: 20px;
-  width: 1000px;
-  text-align: center;
-  background-color:#f80000;
-  color: #588157;
+.image {
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 550px;
+  width: 589px;
 }
-
+.summary {
+  background-color: #DAD7CD;
+  height: auto;
+  margin-left: 750px;
+  margin-right: 30px;
+}
+.footer {
+  text-align: center;
+  color: whitesmoke;
+}
                                                 
